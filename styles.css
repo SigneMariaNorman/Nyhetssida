@@ -1,15 +1,15 @@
 body::before {
-    content: right;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-image: url('https://cdn.pixabay.com/photo/2016/10/21/09/23/donald-trump-1757583_1280.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: 45%; /* justera storleken på bakgrundsbilden här */
+    background-repeat: repeat; /* upprepa bilden */
     background-position: bottom;
-    opacity: 0.2; /* justera genomskinligheten här */
+    opacity: 0.1; /* justera genomskinligheten här */
     z-index: -1; /* placera bakom innehållet */
 }
 
@@ -17,10 +17,22 @@ body
 {
     font-family: Arial, sans-serif;
     background-color: #556B2F; /* Dark Olive Green */
-    color: #8FBC8F; /* Dark Sea Green */
+    color: #DCDCDC; /* Gainsboro */
     margin: 0;
     padding: 0;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+}
+h1
+{
+    text-align: center;  
+}
+h2
+{
+    text-align: center;  
+}
+p
+{
+    text-align: center;  
 }
